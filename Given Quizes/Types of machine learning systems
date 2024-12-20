@@ -1,0 +1,38 @@
+1.What is the key distinction between supervised and unsupervised learning?
+  Answer: Supervised learning uses labeled data, while unsupervised learning works with unlabeled data to find patterns.
+
+2.Select the correct example of a real-world application for each type of machine learning.
+  Answer: Supervised learning in email spam filtering, unsupervised learning in customer segmentation, and reinforcement learning in training self-driving cars.
+
+3.select the correct machine learning type for Supervised learning.
+   Answer: Uses labeled data to make predictions based on previously known outcomes.
+
+4.What is the difference between supervised and unsupervised machine learning?
+  Answer:The goal for unsupervised learning is to model the underlying structure or distribution in the data.
+  Supervised learning is used when we want to predict a certain outcome from a given input.
+
+5.Select which of the following scenarios are regression problems.
+  Answer:Predict how much a company will spend on electricity the next semester.
+  Predict the score that a student will achieve in an exam whose grade can be 0.1, 2,..., 10.
+
+6.Select which of the following scenarios are classification problems.
+  Answer:Determine whether a customer is likely to purchase more items or not.
+  An algorithm is trained to recognize spam email by learning the characteristics of what constitutes spam vs non-spam email.
+
+7.Suppose you want to develop a supervised machine learning model to predict whether a superhero will fly or not.
+  Answer:A classification model provides the best approach.
+
+8.True or False: Clustering is a common task in unsupervised learning, where data points are grouped together based on similarity.
+  Answer: True
+
+9.Imagine you work for an e-commerce company. The company has a large database of customer transactions, and your task is to segment customers into different groups for targeted marketing. Which unsupervised learning technique would you use?
+   Answer: For customer segmentation in e-commerce, you can use clustering algorithms like K-means or hierarchical clustering.
+
+10.You are a financial analyst at a bank and need to detect potentially fraudulent transactions in a credit card dataset. How could unsupervised learning be applied to identify unusual transaction patterns indicative of fraud?
+   Answer: Unsupervised learning can be applied to detect fraudulent transactions by clustering normal and abnormal transaction patterns or using outlier detection methods to identify unusual transaction behavior.
+
+
+
+
+
+
