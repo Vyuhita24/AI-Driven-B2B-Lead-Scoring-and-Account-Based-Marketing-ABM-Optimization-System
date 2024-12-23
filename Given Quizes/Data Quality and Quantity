@@ -1,0 +1,39 @@
+1. Customer Segmentation for Marketing Strategy
+Question: Given a dataset containing customer demographics and purchase history, how can we group customers based on their similarities to tailor marketing strategies?
+Answer:Unsupervised Learning
+
+2. Anomaly Detection in Network Traffic
+Question: How can we identify unusual patterns or anomalies in network traffic that may indicate a security breach, without having prior labeled examples of such incidents?
+Answer:Unsupervised Learning
+
+3. Predicting Housing Prices based on Features
+Question: Given historical data on housing prices and features such as location, size, and amenities, can we build a model to predict the prices of new houses?
+Answer:Supervised Learning
+
+4. Predicting Customer Satisfaction for an E-commerce Website
+Question: Given customer feedback data on an e-commerce website where customers can rate their satisfaction on a scale from 1 to 5, should we model this problem as a classification or a regression task?
+Answer:Both options are possible
+
+5. Identifying Subgroups of Patients for Personalized Treatment
+Question: You are a healthcare researcher aiming to identify potential subgroups of patients based on their medical records to personalize treatment plans. How could unsupervised learning be utilized to uncover distinct patient clusters with similar medical profiles, allowing for more targeted and effective healthcare interventions?
+Answer:Unsupervised learning can segment patients into clusters based on their medical records, revealing distinct subgroups without using any predefined labels.
+
+6. Predicting Purchase Likelihood for E-commerce Customers
+Question: You are an e-commerce manager and want to predict whether customers are likely to make a purchase during their website visit. How can supervised learning be applied to develop a predictive model that helps classify customers into 'potential buyers' and 'non-buyers' based on historical data and labeled purchase information?
+Answer:Supervised learning can be employed to classify customers into groups based on their purchase history and other features, allowing for targeted marketing strategies.
+
+1. Having a large dataset guarantees high data quality.
+Answer:
+False
+Reasoning: A large dataset does not necessarily guarantee high data quality. High-quality data must be accurate, consistent, complete, and relevant, which is independent of its size.
+
+2. Data quality is a subjective term and does not have a universally agreed-upon definition.
+Answer:
+False
+Reasoning: While the specific aspects of data quality may vary based on context, data quality generally refers to the accuracy, completeness, consistency, timeliness, and relevance of data, making it more objective than subjective.
+
+3. Scenario: Predicting Student Performance
+Question: In this scenario, what would be an example of a high-quality dataset?
+Answer:
+A. A dataset with accurate and up-to-date information about study hours, attendance, and extracurricular activities for a diverse set of students.
+Reasoning: High-quality data is accurate, up-to-date, complete, and diverse. Option A meets these criteria and provides meaningful insights for predicting student performance.
