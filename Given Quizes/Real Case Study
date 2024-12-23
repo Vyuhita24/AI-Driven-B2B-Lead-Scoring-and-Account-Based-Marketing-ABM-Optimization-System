@@ -1,0 +1,7 @@
+1. True/False: The primary goal of the case study is to understand the practical aspects of applying machine learning techniques to predict and mitigate customer churn.**  
+Answer:True  
+Reasoning: The primary goal of such a case study is to explore how machine learning can be used to predict customer churn and develop strategies to reduce it, improving customer retention.
+
+2. True/False: The dataset for this case study includes customer demographics, usage patterns, contract details, and customer service interactions.**  
+Answer: True  
+Reasoning:A dataset for predicting customer churn typically contains these features as they provide valuable insights into customer behavior and factors influencing churn.
