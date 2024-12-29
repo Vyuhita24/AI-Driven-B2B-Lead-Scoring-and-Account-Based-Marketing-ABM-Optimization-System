@@ -1,0 +1,20 @@
+1. Check if any of the records of the dataset are duplicated.
+Answer: There are 29 duplicated rows.
+Explanation: This result assumes that a dataset inspection using .duplicated() identifies 29 duplicate rows. Checking duplicates ensures data accuracy.
+
+2. Your task is to check for duplicates in a specific column of a given DataFrame. Select the correct code.
+Answer: df.duplicated('TypeText')
+Explanation: The .duplicated('column_name') method checks for duplicate values in the specified column (TypeText). The other options either use an incorrect syntax or parameter.
+
+3. Drop duplicate rows from a given DataFrame and retain the first occurrence of each duplicated row. Select the correct code.
+Answer: df.drop_duplicates(keep='first', inplace=True)
+Explanation: The .drop_duplicates() method removes duplicate rows, retaining the first occurrence when keep='first' is specified. The inplace=True parameter ensures changes are applied directly to the DataFrame.
+
+4. Scenario Question: What should be your next step to address duplicate entries?
+Answer: Implement data preprocessing techniques to identify and remove duplicate entries effectively.
+Explanation: Removing duplicates ensures data consistency and prevents skewed or biased outcomes. Analyzing duplicates separately or merging them can introduce noise into the dataset.
+
+5. True or False: Ignoring duplicate entries in a dataset is a recommended practice, as they don't significantly impact the accuracy of data analysis and decision-making.
+Answer: False.
+Explanation: Ignoring duplicates can significantly impact analysis by introducing biases, leading to unreliable conclusions. It is essential to handle duplicates appropriately.
+
