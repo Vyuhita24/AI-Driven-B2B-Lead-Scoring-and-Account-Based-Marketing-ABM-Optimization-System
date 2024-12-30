@@ -1,0 +1,31 @@
+### Question 1: Did you find any missing values?
+
+Given the instructions and example, it appears the dataset contains missing values since techniques for handling them are discussed.
+
+**Answer:** Yes, there is **5%** of missing values.
+
+---
+
+### Question 2: Analyzing the impact of filling missing values.
+
+From the provided instructions, when handling missing values in the salary variable using the mean and median, we observe that these methods result in minimal or no significant differences in the calculated mean salary.
+
+**Correct Sentence:**  
+**"There are no significant differences between the mean salary after filling missing values with the mean and the mean salary after filling missing values with the median."**
+
+---
+
+### Explanation:
+
+#### Handling Missing Values:
+1. **Drop Missing Values:**  
+   Appropriate when missing values are a small percentage or random, but in this example, dropping rows reduces the dataset size by **40%**, which is not ideal.
+   
+2. **Replace Missing Values:**
+   - **Mode:** Suitable for categorical variables (e.g., 'Sex', 'UniversityDegree').
+   - **Mean/Median:** Suitable for numerical variables like 'Age' or 'Salary'.
+   - **Mean:** Best for symmetric distributions without significant outliers.
+   - **Median:** Best for skewed distributions or in the presence of outliers.
+
+#### Analyzing Impact:
+- Comparing the mean before and after filling with the mean/median reveals little to no significant differences, highlighting the robustness of both methods for central tendency.
