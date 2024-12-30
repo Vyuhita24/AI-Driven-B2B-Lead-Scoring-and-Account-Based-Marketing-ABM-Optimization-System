@@ -1,0 +1,11 @@
+Question 1: Which value has the best hyperparameters of max_depth?
+From the provided information:
+Best hyperparameters:
+{'max_depth': 4, 'min_samples_leaf': 4} with a mean score of 0.96
+The highest mean score (0.96) corresponds to max_depth = 4.
+Answer: 4
+
+Question 2: True or False: For this example, the best hyperparameter obtained is max_depth = 19.
+From the results, the best max_depth is 4, not 19. Therefore:
+Answer: False
+
