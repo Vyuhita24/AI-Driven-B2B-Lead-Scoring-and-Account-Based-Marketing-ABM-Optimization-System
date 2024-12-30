@@ -1,0 +1,51 @@
+### Question 1: **Encoding Categorical Variables**  
+
+To encode categorical variables using `get_dummies`, the resulting DataFrame `df_encoded` includes both encoded categorical variables and existing numerical variables.  
+
+- **Code:**  
+  ```python
+  df_encoded = pd.get_dummies(df, drop_first=True)
+  ```
+
+---
+
+### Question 2: **Handling Missing Values**  
+
+To replace missing values in `df_encoded` with the mean, the correct code is:
+
+- **Answer:**  
+  ```python
+  df_filled = df_encoded.fillna(df_encoded.mean())
+  ```
+
+Explanation:  
+- `fillna` is used to fill missing values.  
+- `.mean()` computes the mean for each numerical column in `df_encoded`.  
+- The correct syntax ensures `fillna` is applied to the DataFrame with the mean values.
+
+---
+
+### Question 3: **Creating New Features**  
+
+To create new features such as the squared, cubed, and logarithm of a numerical column (`Numeric`), the following code is used:
+
+```python
+df_filled['Feature1_squared'] = df_filled['Numeric'] ** 2
+df_filled['Feature2_cubed'] = df_filled['Numeric'] ** 3
+df_filled['Feature3_log'] = np.log(df_filled['Numeric'].replace(0, np.nan))
+```
+
+#### Explanation:
+1. **Square and Cube Features:**  
+   These calculations are straightforward using the power operator (`**`).  
+
+2. **Logarithm Calculation:**  
+   - Taking the logarithm of `0`, negative, or `NaN` values leads to a runtime warning.  
+   - Replace `0` with `NaN` to avoid warnings and handle these cases gracefully.
+
+--- 
+
+### Additional Notes:
+1. Always inspect and clean data before feature engineering.  
+2. Handle logarithms carefully, as they are only valid for positive values.  
+3. Test for missing values in new features after transformations.
