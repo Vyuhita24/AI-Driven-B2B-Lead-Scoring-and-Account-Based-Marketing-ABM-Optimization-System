@@ -1,0 +1,130 @@
+Plot a histogram using the writing scores data.
+
+Plot a histogram using the writing scores data. Set the number of bins to 30 and adjust the transparency with the alpha parameter as 0.6. The color should be green, and the density parameter should be true.
+
+Your plot should look like this:
+
+
+Preview
+Follow the steps outlined in the template to create your histogram.
+
+Note: The key requirement is to keep the default figure size, color, label, and title settings unmodified.
+
+Start project before checking your activities.
+
+Additional Challenges
+Try changing the number of bins in the histogram and observe how the plot changes.
+Experiment with different values of alpha to see how transparency affects the appearance of the plot.
+Try to interpret the distribution. Is it normal, skewed, or irregular
+Horizontal Box Plot
+2
+Creating a Horizontal Box Plot with Matplotlib
+
+Create a horizontal box plot to visualize the distribution of a dataset representing reading scores.
+
+Use Matplotlib to create a box plot representing the reading scores. Make sure the plot is oriented horizontally.
+
+Your plot should look like this:
+
+
+Preview
+Note: The key requirement is to keep the default figure size, color, label, and title settings unmodified.
+
+Start project before checking your activities.
+
+3
+Compare the Distribution of Reading and Writing Scores Using Side-by-Side Box Plots
+
+Compare the distribution of reading and writing scores within a dataset. Your task is to create side-by-side box plots for these scores, using a provided template as a guide.
+
+First, you'll need to define a new variable called scores_data, which will consist of the reading and writing scores from your dataset. Then, follow the steps outlined in the template to create your box plots.
+
+Instructions:
+
+Prepare Your Data:
+
+Extract the reading and writing scores from your dataset.
+
+Store these scores in a variable named scores_data.
+
+Create Box Plots:
+
+Use scores_data to create side-by-side box plots for reading and writing scores.
+
+Follow the template provided for guidance.
+Your plot should look like this:
+
+
+Preview
+Start project before checking your activities.
+
+4
+Comparing Reading Scores by Test Preparation Course Using Matplotlib
+
+Compare the reading scores of students based on whether they completed a test preparation course. This analysis will help in understanding the impact of test preparation on students' reading performance.
+
+Let's first separate Reading Scores by Test Preparation Course as follows:
+
+completed_prep = students_df[students_df['test preparation course'] == 'completed']['reading score']
+no_prep = students_df[students_df['test preparation course'] == 'none']['reading score']
+Store these variables in data_to_plot.
+
+Your plot should look like this:
+
+
+Preview
+Start project before checking your activities.
+
+5
+Comparing Math, Reading, and Writing Scores in a Single Graph
+
+Visualize and compare the distributions of math, reading, and writing scores in a single graph. You will achieve this by plotting all three sets of scores side-by-side for an easy comparison.
+
+Please follow the steps provided in the template below to complete this activity. Remember, the key requirement is to retain the default settings for figure size, color, labels, and title in your graph.
+
+Instructions:
+
+Prepare Your Data:
+
+Extract the math, reading, and writing scores from your dataset.
+
+Store these scores in a list or an array for plotting.
+
+Create a Combined Box Plot:
+
+Use the prepared data to plot a combined box plot that displays all three sets of scores side-by-side.
+
+Follow the provided template closely.
+Your plot should look like this:
+
+
+Preview
+Start project before checking your activities.
+
+6
+Analyzing Reading Score Variation by Race/Ethnicity
+
+Explore whether reading scores vary depending on different race/ethnicity groups. Your task is to create a box plot that visualizes the distribution of reading scores across various race/ethnicity categories in your dataset.
+
+Follow the steps in the provided template to complete this activity, making sure to keep the default figure size, color, labels, and title settings unmodified.
+
+Instructions:
+
+Prepare Your Data:
+
+Extract the reading scores and corresponding race/ethnicity data from your dataset.
+
+Group the reading scores based on the different categories of race/ethnicity.
+
+Create a Box Plot:
+
+Using the grouped data, create a box plot that displays the distribution of reading scores for each race/ethnicity category.
+
+Adhere to the following template for guidance.
+Your plot should look like this:
+
+
+Preview
+Start project before checking your activities.
+
+Continue with
